@@ -1,0 +1,184 @@
+{
+  "last_node_id": 33,
+  "last_link_id": 45,
+  "nodes": [
+    {
+      "id": 32,
+      "type": "OcrImageText",
+      "pos": [
+        -751,
+        -1255
+      ],
+      "size": {
+        "0": 210,
+        "1": 26
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 44
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            45
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "OcrImageText"
+      }
+    },
+    {
+      "id": 33,
+      "type": "easy showAnything",
+      "pos": [
+        -479,
+        -1255
+      ],
+      "size": {
+        "0": 398.8299560546875,
+        "1": 572.5189819335938
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 45
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy showAnything"
+      },
+      "widgets_values": [
+        "十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\n口\n<>\n63\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\n口\n<\n63\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\no口\n<>\n63\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\n<>\n63\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\no口\n<>\n63\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\n<>\n63\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\no口\n<>\n63\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\n<>\n63\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\no口\n<>\n63\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\n<>\n63\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\no口\n<>\n63\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\n口\n<>\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无捷开1080克豪清杰境透\nD\no口\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无捷开1080克豪清杰境透\nD\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无损开1080克豪清杰境透\nD\n\n十关注\n?\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无捷开1080克豪清杰境透\nD\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无捷开1080克豪清杰境透\n\n十关注\n?\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\n<>\n3\n\n十关注\n?\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无捷开1080克豪清杰境透\nD\n<>\n\n十关注\n?\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\n<>\n\n十关注\nBeatIt>\nBeat It - Michael Jackson\n00:02/04:59\nMHi-Res无开1080克豪清杰境透\nD\n<>\n\nBeat It - Michael Jackson\n00:02/04:59\nMvHi-Res无损开1089克豪清杰境速\nD\no口\n3\n\nBeat It - Michael Jackson\n00:02/04:59\nAHi-Res无避开10避克康清杰竟递\nD\n\nBeat It - Michael Jackson\n00:02/04:59\nAHi-Res无避开10避克系清杰竟递\nD\n\nBeat It - Michael Jackson\n00:0204:59\n\nBeat It - Michael Jackson\n00:02-04:59\nAHi-Res天《避开》\n迈克尔·杰克逊\n\nBeat It - Michael Jackson\n《避开》：\n迈克尔·杰克逊\n\nBeat It - Michael Jackson\n《避开》\n迈克尔·杰克逊\n\nBeat It - Michael Jackson\n10..0.3\n140\ndb2.120\n133\n\nBeatIt-Michael Jackson\n10..0.3\n140\ndb2.120\n133\n\nBeatIt-Michael Jackson\n10..0.3\n140\ndb2.120\n\nBeatIt-Michael Jackson\n10.0.3\n140\ndb2.120\n133\n\n"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "VHS_LoadVideo",
+      "pos": [
+        -1058,
+        -1256
+      ],
+      "size": [
+        235.1999969482422,
+        395.65295146002063
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            44
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "video_info",
+          "type": "VHS_VIDEOINFO",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_LoadVideo"
+      },
+      "widgets_values": {
+        "video": "beat it.mp4",
+        "force_rate": 0,
+        "force_size": "Disabled",
+        "custom_width": 512,
+        "custom_height": 512,
+        "frame_load_cap": 60,
+        "skip_first_frames": 0,
+        "select_every_nth": 1,
+        "choose video to upload": "image",
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "frame_load_cap": 60,
+            "skip_first_frames": 0,
+            "force_rate": 0,
+            "filename": "beat it.mp4",
+            "type": "input",
+            "format": "video/mp4",
+            "select_every_nth": 1
+          },
+          "muted": false
+        }
+      }
+    }
+  ],
+  "links": [
+    [
+      44,
+      31,
+      0,
+      32,
+      0,
+      "IMAGE"
+    ],
+    [
+      45,
+      32,
+      0,
+      33,
+      0,
+      "*"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.8390545288824041,
+      "offset": {
+        "0": 1451.8276410975216,
+        "1": 1435.7473585848206
+      }
+    }
+  },
+  "version": 0.4
+}

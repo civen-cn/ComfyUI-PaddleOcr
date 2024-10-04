@@ -1,0 +1,241 @@
+{
+  "last_node_id": 41,
+  "last_link_id": 53,
+  "nodes": [
+    {
+      "id": 34,
+      "type": "LoadImage",
+      "pos": [
+        -1185,
+        -1205
+      ],
+      "size": [
+        315,
+        314
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            47,
+            49
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "text.png",
+        "image"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "OcrBoxMask",
+      "pos": [
+        -732,
+        -973
+      ],
+      "size": [
+        210,
+        62.4697444251517
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 47
+        }
+      ],
+      "outputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            52
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "OcrBoxMask"
+      },
+      "widgets_values": [
+        "OCR"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "InvertMask",
+      "pos": [
+        -731,
+        -1055
+      ],
+      "size": {
+        "0": 210,
+        "1": 26
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 52
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            53
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "InvertMask"
+      }
+    },
+    {
+      "id": 38,
+      "type": "JoinImageWithAlpha",
+      "pos": [
+        -725,
+        -1197
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 49
+        },
+        {
+          "name": "alpha",
+          "type": "MASK",
+          "link": 53
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            50
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "JoinImageWithAlpha"
+      }
+    },
+    {
+      "id": 39,
+      "type": "PreviewImage",
+      "pos": [
+        -437,
+        -1190
+      ],
+      "size": [
+        236.79300708519145,
+        279.03362187854646
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 50
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    }
+  ],
+  "links": [
+    [
+      47,
+      34,
+      0,
+      35,
+      0,
+      "IMAGE"
+    ],
+    [
+      49,
+      34,
+      0,
+      38,
+      0,
+      "IMAGE"
+    ],
+    [
+      50,
+      38,
+      0,
+      39,
+      0,
+      "IMAGE"
+    ],
+    [
+      52,
+      35,
+      0,
+      41,
+      0,
+      "MASK"
+    ],
+    [
+      53,
+      41,
+      0,
+      38,
+      1,
+      "MASK"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.6934334949441362,
+      "offset": {
+        "0": 1605.7731995057363,
+        "1": 1636.342411748867
+      }
+    }
+  },
+  "version": 0.4
+}
