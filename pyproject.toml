@@ -9,6 +9,6 @@ Repository = "https://github.com/civen-cn/ComfyUI-PaddleOcr"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "civen-cn"
 DisplayName = "ComfyUI-PaddleOcr"
 Icon = ""
