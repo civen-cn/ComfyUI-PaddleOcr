@@ -2,7 +2,8 @@ from .paddle_ocr import *
 
 NODE_CLASS_MAPPINGS = {
     "OcrBoxMask": OcrBoxMask,
-    "OcrImageText": OcrImageText
+    "OcrImageText": OcrImageText,
+    "OcrBlur": OcrBlur
 }
 
 
