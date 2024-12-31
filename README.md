@@ -2,6 +2,7 @@
 Nodes related to PaddleOCR OCR
 - Inspire by [PaddleOCR](https://paddlepaddle.github.io/PaddleOCR/) 
 
+
 ## OcrBoxMask
 ### return masks of detected text in images
 This node returns masks of detected text in images using PaddleOCR.
