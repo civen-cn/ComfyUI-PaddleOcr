@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-paddleocr"
 description = "Nodes related to [a/PaddleOCR](https://paddlepaddle.github.io/PaddleOCR) OCR."
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"}
 
 [project.urls]
